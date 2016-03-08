@@ -1,7 +1,9 @@
-var http = require('http');
-var fs = require('fs');
+const http = require('http');
+const fs = require('fs');
 
-var server = http.createServer(function (req, res) {
+var port = 3000;
+
+const server = http.createServer((req, res) => {
   var action = req.method + ' ' + req.url;
 
   switch(action) {
@@ -15,5 +17,5 @@ var server = http.createServer(function (req, res) {
   }
 });
 
-server.listen(3000);
-console.log("http server listening on http://localhost:3000");
+server.listen(port);
+console.log(`http server listening on http://localhost:${port}`);
