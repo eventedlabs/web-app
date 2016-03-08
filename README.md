@@ -1,3 +1,3 @@
 # Web App
 
-[ ] Complete the readme
+- [ ] Complete the readme
