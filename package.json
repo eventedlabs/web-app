@@ -1,0 +1,10 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "A simple web app to collaborate on.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Chris Mather <chris@eventedmind.com>",
+  "license": "MIT"
+}
